@@ -8,12 +8,6 @@ span {
     font-weight: bold;
 }
 
-
-.navbar .logo-menu {
-    z-index: 1;
-    position: relative;
-}
-
 /* Jumbotron */
 .jumbotron {
     background-image: url(../img/banner1.jpg);
@@ -21,11 +15,6 @@ span {
     height: 440px;
     text-align: center;
     position: relative;
-}
-
-.jumbotron .container {
-    position: relative;
-
 }
 
 .jumbotron::after {
