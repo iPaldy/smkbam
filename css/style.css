@@ -1,11 +1,22 @@
+/* info */
 .info-pendaftaran {
-    font-size: 15px;
+    font-size: 12px;
     height: 30px;
     line-height: 30px;
 }
 
 span {
     font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 1;
+}
+
+.navbar-collapse {
+    margin-bottom: 50px;
+    transition-delay: -1s;
 }
 
 /* Jumbotron */
@@ -15,6 +26,8 @@ span {
     height: 440px;
     text-align: center;
     position: relative;
+    margin-top: -56px;
+    z-index: 0;
 }
 
 .jumbotron::after {
@@ -25,4 +38,22 @@ span {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     position: absolute;
     bottom: 0;
+}
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+
+    /* info */
+    .info-pendaftaran {
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    /* Navbar */
+    .navbar-collapse {
+        margin-bottom: 0px;
+    }
+
 }
