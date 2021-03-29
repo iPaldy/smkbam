@@ -1,4 +1,9 @@
 /* info */
+.info {
+    background-color: #29166f;
+    color: #d1d1d0;
+}
+
 .info-pendaftaran {
     font-size: 12px;
     height: 30px;
@@ -15,8 +20,12 @@ span {
 }
 
 .navbar-collapse {
-    margin-bottom: 50px;
+    margin-bottom: 65px;
     transition-delay: -1s;
+}
+
+.logo img {
+    width: 50px;
 }
 
 /* Jumbotron */
@@ -26,18 +35,37 @@ span {
     height: 440px;
     text-align: center;
     position: relative;
-    margin-top: -56px;
+    margin-top: -73px;
     z-index: 0;
 }
 
 .jumbotron::after {
-    content: '';
+    /* content: '';
     display: block;
     width: 100%;
     height: 80%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     position: absolute;
-    bottom: 0;
+    bottom: 0; */
+}
+
+.display-5 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: -185px;
+}
+
+/* Kepsek */
+.kepsek .container {
+    margin-top: -15px;
+}
+
+.kepsek img {
+    width: 150px;
+}
+
+.kepsek h2 {
+    font-size: 22px;
 }
 
 
@@ -54,6 +82,39 @@ span {
     /* Navbar */
     .navbar-collapse {
         margin-bottom: 0px;
+    }
+
+    /* Jumbotron */
+
+    .jumbotron {
+        margin-top: -101px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .navbar-brand {
+        font-size: 40px;
+    }
+
+    .display-5 {
+        font-size: 45px;
+        margin-top: 32px;
+        margin-left: -15px;
+    }
+
+    /* Kepsek */
+    .kepsek .container {
+        margin-top: -15px;
+    }
+
+    .kepsek img {
+        width: 250px;
+    }
+
+    .kepsek h2 {
+        font-size: 30px;
     }
 
 }
